@@ -12,6 +12,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    }
+  },
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
